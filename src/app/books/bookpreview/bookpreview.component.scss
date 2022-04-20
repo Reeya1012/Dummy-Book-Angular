@@ -1,0 +1,43 @@
+.outer-block{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 2% 2% 2% 2%;
+    justify-content: center;
+}
+
+.info-block{
+    padding: 5% 5% 2% 5%;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.picsum-img-wrapper{
+    display: flex;
+}
+
+.outer-block2{
+    padding: 2% 2% 2% 2%;
+    display:inline;
+    margin: auto;
+    justify-content: center;
+    border: 2px solid darkslateblue;
+    margin-bottom: 25px;
+}
+
+.back{
+    background-color: darkseagreen;
+}
+
+.heading{
+    padding: 2% 2% 0% 2%;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    background-color: darkseagreen;
+    color: darkslateblue;
+}

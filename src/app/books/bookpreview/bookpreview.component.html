@@ -1,0 +1,23 @@
+<div class = "outer-block">
+    <div class="picsum-img-wrapper" >
+        <img [src]="booksRecord.bookImg" width="300" height="500">
+    </div>
+    <div class = "info-block">
+        <h2>{{ booksRecord.bookName }}</h2>
+        <p>{{ booksRecord.bookInfo }}</p>
+        <p>Get yours at Amazon : </p>
+        <a href = "https://www.amazon.in/">
+            <img src = "../assets/amazon-logo.png" width="35px" height="35px">
+        </a>
+    </div>
+</div>
+<div class="heading">
+    <h2>Other books you may like</h2>
+</div>
+<div class="outer-block back">
+    <div class = "outer-block2"  *ngFor = "let book of bookRecord">
+        <a [routerLink] = "['/bookpreview',book.id]">
+            <img [src]="book.bookImg" width="100" height="150">
+        </a>
+    </div>
+</div>

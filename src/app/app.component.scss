@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 35px;
+}
+
+ul{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: darkseagreen;
+}
+
+ul>li{
+    padding: 2% 5% 2% 5%;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: darkslateblue;
+}
+
+.active{
+    background-color:darkslateblue;
+    font-weight: bold;
+    font-size: 25px;
+}

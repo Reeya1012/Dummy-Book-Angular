@@ -1,0 +1,23 @@
+div{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    padding: 2% 2% 2% 2%;
+    
+}
+
+input{
+    margin-bottom:10px;
+}
+
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+
+input.ng-valid{
+    border: 1px solid lawngreen;
+}
+
+.radio{
+    width: 100%;
+}

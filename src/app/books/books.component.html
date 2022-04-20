@@ -1,0 +1,9 @@
+
+<div class="back-div">
+    <div class = "row" *ngFor = 'let book of booksRecord'>
+        <a [routerLink] = "['/bookpreview',book.id]">
+            <img [src]="book.bookImg" width="300" height="450">
+        </a>
+        <h1>{{ book.bookName }}</h1>
+    </div>
+</div>

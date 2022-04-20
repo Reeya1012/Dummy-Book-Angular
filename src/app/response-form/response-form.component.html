@@ -1,0 +1,28 @@
+<div>
+    <form (ngSubmit) = "onSubmit(form)" #form = "ngForm" >
+        <input type="text" class="form-control" 
+        ngModel name = "username"
+        required
+        ngModelGroup = "userData" 
+        placeholder = "Enter Name">
+        <input type="text" class="form-control" 
+        ngModel name = "email" 
+        required 
+        email
+        ngModelGroup = "userData"
+        placeholder = "Enter Email">
+        <input type="text" class="form-control" 
+        ngModel name = "contact"
+        required 
+        placeholder = "Enter Point of Contact">
+        <!-- Use object reference for inputting the error for ex: #email = "ngModel" and then isValid -->
+        <h3>Choose an option:</h3>
+        <div class ="radio" *ngFor = "let des of occupation">
+            <input type="radio" name="occupation" ngModel [value]="des" required>{{ des }}
+        </div>
+        <button class="btn btn-primary" 
+        [disabled] = "!form.valid"
+        type = "submit"
+        >Submit</button>
+    </form>
+</div>
