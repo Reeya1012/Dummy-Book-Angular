@@ -1,4 +1,16 @@
-# Practice3
+# Book Hub: Static Dummy Book Website in Angular
+
+The wesbite is just a basic Angular project. It uses components like Material Table Component, Routing, Form handling and Updating.
+
+## Languages and Tools
+<p align="center">
+<img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" height="60" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="Typescript" height="60" style="vertical-align:top; margin:4px">
+<img src="https://angular.io/generated/images/marketing/concept-icons/material.png" alt="Javascript" height="60" style="vertical-align:top; margin:4px">
+<img src="https://angular.io/generated/images/marketing/concept-icons/forms.png" alt="Javascript" height="60" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" alt="VSC" height="60" style="vertical-align:top; margin:4px">
+
+</p>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
