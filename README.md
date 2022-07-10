@@ -1,6 +1,6 @@
 # Book Hub: Static Dummy Book Website in Angular
 
-The wesbite is just a basic Angular project. It uses components like Material Table Component, Routing, Form handling and Updating.
+The website is just a basic Angular project. It uses components like Material Table Component, Routing, Form handling and Updating.
 
 ## Languages and Tools
 <p align="center">
