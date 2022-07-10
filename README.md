@@ -2,7 +2,7 @@
 
 The website is just a basic Angular project. It uses components like Material Table Component, Routing, Form handling and Updating.
 
-## Languages and Tools
+## Languages, Frameworks and Tools
 <p align="center">
 <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" height="60" style="vertical-align:top; margin:4px">
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="Typescript" height="60" style="vertical-align:top; margin:4px">
